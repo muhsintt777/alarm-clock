@@ -1,0 +1,26 @@
+.alarmList-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.alarmList-singleAlarm {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: blue;
+  box-shadow: 0 0 3px;
+  border-radius: 5px;
+}
+
+.alarmList-singleAlarm__deleteButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+  font-size: 15px;
+}
